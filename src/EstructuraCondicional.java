@@ -59,7 +59,7 @@ public class EstructuraCondicional {
             
             Scanner lea=new Scanner(System.in);
             lea.useDelimiter("\n");
-            double descuento=0, double porcentajeDsct=0, boolean clienteTerceraEdad= false;
+            double descuento=0; double porcentajeDsct=0; boolean clienteTerceraEdad= false;
             
             System.out.println("****Facturación - CP****");
             System.out.println("Cliente: ");
@@ -82,7 +82,7 @@ public class EstructuraCondicional {
                 porcentajeDsct = 30;
             } else {
           
-                if (subtotal >= 1000 && <= 5000) {
+                if (subtotal >= 1000) {
                     descuento = (subtotal*0.15);
                     porcentajeDsct = 15;
                 
